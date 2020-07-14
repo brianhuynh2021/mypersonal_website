@@ -1,0 +1,104 @@
+body {
+    background-color: #c7cdd2;
+    color: #333;
+    font-family: 'Lato',sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    line-height: 1.6;
+    margin: 0;
+}
+div{
+  display: block;
+}
+
+.top-area{
+  margin-top: 10px;
+}
+.site-avatar {
+  height: 200px;
+  width: 180px;
+  border-radius: 50%;
+  }
+
+.site-title {
+  position: absolute;
+  left: 300px;
+  top: 71px;
+  width: 640px;
+  /* border: 2px solid blue; */
+  font-size: 30px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 10px;
+  font-variant: small-caps;
+  line-height: 1.2px;
+  margin-top: 3px;
+}
+
+.site-title h1 {
+  text-align: center;
+}
+
+.site-name {
+  color: rgb(20, 25, 133);
+}
+
+.nav-top-menu {
+  float: right;
+  top: 110px;
+  position: relative;
+  width: 500px;
+  height: 200px;
+  line-height: 40px;
+  margin-right: 80px;
+  margin-left: 15px;
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+
+.nav-menu-1 a {
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: "Varela Round", sans-serif;
+  /* border: 1px solid blue; */
+  text-decoration: none;
+}
+
+.nav-menu-1 a:hover {
+  color:rgb(19, 164, 221);
+}
+
+.nav-menu-1 a:active{
+  color:red;
+  text-decoration: underline;
+ }
+
+ .social-links-li{
+  list-style-type: none;
+ }
+
+.social-links-youtube svg{
+   fill: rgb(160, 10, 10);
+ }
+
+ .social-links-youtube svg:hover{
+   fill: rgb(175, 12, 12);
+ }
+
+ .social-links-github svg:hover{
+   fill: rgb(49, 70, 129);
+ }
+
+ .social-links-div{
+   margin-top: 10px;
+   height: 40px;
+ }
+
+ .social-links-div{
+   position: absolute;
+   top: 145px;
+   margin-left: 258px;
+ }
+
+ ul .social-links-li{
+   display: inline-block;
+ }

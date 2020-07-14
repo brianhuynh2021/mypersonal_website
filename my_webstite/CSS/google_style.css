@@ -1,0 +1,90 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+#nav a {
+  margin-right: 20px;
+}
+
+#nav a.topimage {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+#mid {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo {
+  text-align: center;
+}
+
+#searchbarcontainer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 600px;
+  outline: 0;
+  border-radius: 10px;
+  border: 1px solid #9d9d9dd3;
+}
+
+#buttons {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: darkgray;
+  border-radius: 4px;
+}
+
+body {
+  position: flex;
+  flex-direction: column;
+}
+#languages {
+  text-align: center;
+  margin-top: 12px;
+}
+
+#languages a {
+  padding-left: 8px;
+  padding-right: 2px;
+}
+
+#footer {
+  position: relative;
+  margin-top: 300px;
+  text-align: center;
+}
+
+#footer .footer-content {
+  display: inline;
+  margin-left: 10px;
+  font-weight: bolder;
+}
