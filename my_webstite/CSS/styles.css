@@ -43,14 +43,12 @@ div{
 }
 
 .nav-top-menu {
-  float: right;
-  top: 110px;
-  position: relative;
+  top: 117px;
+  position: absolute;
   width: 500px;
   height: 200px;
   line-height: 40px;
-  margin-right: 40px;
-  margin-left: 25px;
+  margin-left: 1000px;
   /* border: 1px solid red; */
   justify-content: center;
 }
